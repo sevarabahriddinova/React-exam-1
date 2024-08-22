@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container{
+    width: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+    padding-inline: 30px;
+    /* background-color: aqua; */
+   }
+   body{
+       
+        font-family: "ABeeZee", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header__content{
+    background-color: #FEB786;
+    line-height: 46.8px;
+    color:#5C1B05
+}
+.header__text{
+    color:#5C1B05;
+    font-size: 17px;
+}
