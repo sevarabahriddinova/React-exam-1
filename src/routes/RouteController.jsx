@@ -17,7 +17,7 @@ const RouteController = () => {
   return (
     <div>
       <Routes>
-            <Route path="" element= {<Home/>} />
+            <Route path="/" element= {<Home/>} />
             {/* <Route index path="" element={<All/>}/> */}
                     <Route path="/tops" element={<Tops/>}/>
                     <Route path="/beauty" element={<Beauty/>}/>

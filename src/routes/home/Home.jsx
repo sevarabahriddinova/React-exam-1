@@ -7,6 +7,7 @@ import Section from '../../compoent/Section'
 import Footer from '../../compoent/Footer'
 import Categories from '../../compoent/categories/Categories.jsx'
 import { Outlet } from 'react-router-dom'
+import Product from '../../compoent/Product.jsx'
 
 const Home = () => {
     const data = useContext(ProjectStore)
@@ -19,7 +20,7 @@ const Home = () => {
                 <Outlet/>
             </div>
           <Section/>
-          
+          <Product/>
           <Footer/>
          
         </div>

@@ -11,10 +11,10 @@ const Beauty = () => {
     const [data, loading] = useFetch(`/products/category${path.pathname}`)
 
     return (
-        <div>
-            <Nav/>
+        <div className="mt-10 ">
             
-        <div className="cards grid grid-cols-4">
+            
+        <div className="cards grid grid-cols-5 gap-4">
             {
                 loading ?
                     Array.from({ length: 9 }).map((item, index) => (

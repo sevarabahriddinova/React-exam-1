@@ -9,12 +9,12 @@ const Furniture = () => {
     const [data, loading] = useFetch(`/products/category${path.pathname}`)
 
     return (
-        <div className="cards grid grid-cols-4">
+        <div className="cards grid grid-cols-5 gap-4 mt-10 p-6">
             {
                 loading ?
                     Array.from({ length: 9 }).map((item, index) => (
                         <div className="skeloton" key={index}>
-                            <Skeleton.Image  active className="skeloton_img" style={{ width: "350px" , height: "350px"}} />
+                            <Skeleton.Image  active className="skeloton_img" style={{ width: "350px" , height: "250px"}} />
                             <Skeleton.Input active className="skeloton_input" style={{ width: "350px" , height: "20px", marginBlock: "20px"}} />
                             <Skeleton.Input active className="skeloton_input" style={{ width: "350px" , height: "80px"}} />
                             <Skeleton.Input active className="skeloton_input" style={{ width: "350px" , height: "20px"}} />
